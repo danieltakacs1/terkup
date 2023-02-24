@@ -1,0 +1,29 @@
+/*
+* File: style.css
+* Author: Takács Dániel
+* Copyright: 2023, Takács Dániel
+* Group: Szoft I-2 N
+* Date: 2023-02-24
+* Github: https://github.com/danieltakacs1/
+* Licenc: GNU GPL
+*/
+
+footer {
+    background-color: white;
+    padding: 3px;
+    text-align: center;
+    position: fixed;
+    top: 20px;
+    right: -250px;
+    width: 600px;
+    transform: rotate(45deg);
+    font-size: 10px;
+    border-top: 3px solid red;
+    border-bottom: 3px solid green;
+}
+
+.container {
+    background-image: linear-gradient(rgb(190, 190, 190), grey);
+    margin-top: 10px;
+    border-radius: 5px;
+}

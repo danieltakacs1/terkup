@@ -1,16 +1,60 @@
+<!--
+File: index.html
+Author: Takács Dániel
+Copyright: 2023, Takács Dániel
+Group: Szoft I-2 N
+Date: 2023-02-24
+Github: https://github.com/danieltakacs1/
+Licenc: GNU GPL
+    
+-->
+
 <!DOCTYPE html>
 <html lang="hu">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sablon</title>
+    <title>Kúp</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <h1>Sablon</h1>
+        <h1>Kúp térfogat</h1>
+
+        <div class="mt-3">
+            <label for="radius"
+            class="form-label">Sugár</label>
+            <input type="text" id="radius"
+            class="form-control">
+        </div>
+        <div class="mt-3">
+            <label for="height"
+            class="form-label">Magasság</label>
+            <input type="text" id="height"
+            class="form-control">
+        </div>
+
+        <div class="mt-3">
+            <button id="calcButton"
+            class="btn btn-primary">Számít</button>
+        </div>
+
+        <div class="mt-3 pb-3" id="result">
+            <label for="area"
+            class="form-label">Terület</label>
+            <input type="text" id="area"
+            class="form-control" readonly>
+        </div>
+
+
+
     </div>
+
+    <footer>
+        Takács Dániel, <br>Szoft I-2 N,<br> 2023-02-24
+    </footer>
+
     <script src="js/bootstrap.js"></script>
     <script src="app.js"></script>
 </body>
